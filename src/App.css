@@ -1,0 +1,42 @@
+body{
+  background-color: #fafafa;
+}
+
+#root{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+
+}
+
+
+.ConteudoLateralEsquedo,
+.ConteudCentral,
+.ConteudoLateralDireito{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+.ConteudoLateralEsquedo{
+  background: red;
+  display: flex;
+  width: 15vw;
+}
+
+
+
+.ConteudoCentral{
+  background: blue;
+  width: 65vw;
+
+}
+
+
+.ConteudoLateralDireito{
+  background: yellow;
+  width: 20vw;
+}
+
