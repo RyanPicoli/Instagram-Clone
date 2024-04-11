@@ -8,6 +8,7 @@ function App() {
     <>
     
       <ConteudoLateralEsquerdo/>
+      
       <div className='ConteudoLateralEsquerdo'>
         {/* 
           Logo do insta

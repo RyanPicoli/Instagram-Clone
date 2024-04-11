@@ -18,14 +18,24 @@ body{
   min-height: 100vh;
 }
 
-
+/* __________________ Inicio ConteudoLateralEsquedo__________________ */
 
 .ConteudoLateralEsquedo{
   background: red;
   display: flex;
   width: 15vw;
+  
+
 }
 
+.text-menu{
+  list-style: none;
+  font-size: 15px;
+}
+
+
+
+/* __________________ Fim ConteudoLateralEsquedo__________________ */
 
 
 .ConteudoCentral{
